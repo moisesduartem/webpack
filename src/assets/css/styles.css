@@ -1,3 +1,6 @@
 body {
-    background-color: red;
+    background: url('../img/dark.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
 }

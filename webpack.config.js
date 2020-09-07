@@ -11,6 +11,10 @@ module.exports = {
         filename: 'bundle' + jsExtension,
         path: __dirname + '/public/'
     },
+    devServer: {
+        contentBase: './public',
+        port: 9000
+    },
     plugins: [
         new MiniCssExtractPlugin({
             filename: 'styles.css',
